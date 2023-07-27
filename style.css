@@ -1,0 +1,106 @@
+#entete{
+
+
+ height: 100PX;
+ width:1200px ;
+ background-color:white;
+}
+#menu{
+  
+height:55PX;
+width:1200px ;
+background-color:black;
+
+}
+ul{
+
+   float: right;
+   list-style-type: none;
+margin-left: 80px;
+  
+   font-size: 17px;
+    
+    }
+
+ ul li{
+
+ display: inline-block;    
+ margin-left:0px;  
+   }
+   ul li a{
+
+   text-decoration: none;
+    color: aqua;
+    padding: 5px 20px;
+   border: 1px solid transparent;
+transition: o,5 ease;
+margin-left:0px;
+      }
+#corp{
+height:400PX;
+width:1200px ;
+background-color:white;
+    } 
+    .row{
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .ul{
+      list-style: circle;
+   }
+
+.Footer{
+    background-color:black; 
+    padding: 5px;
+}
+.Footer-col{
+   width: 18%;
+   padding: 0 15px;
+   left: 10px;
+}
+.Footer-col h4{
+   font-size: 20px;
+   color: #FFFFFF;
+   text-transform: capitalize;
+   margin-bottom: 40px;
+   font-weight: 200Px;
+   position: relative;
+   width: -15%;
+   
+
+}
+.Footer-col h4::before{
+   content: '';
+   position: absolute;
+   left: 10;
+   bottom: -10px;
+   background-color: burlywood;
+   height: 2px;
+   box-sizing: border-box;
+   width: 300px;
+}
+.Footer-col ul li:not(:last-child){
+   margin-bottom: 10px;
+   left: 10px;
+}
+.Footer-col ul li a{
+   font-size: 16px;
+   text-transform: none;
+   color: #FFFFFF;
+   text-decoration: none;
+   font-weight: 300;
+   color: white;
+   display: block;
+   transition: all 0.3s ease;
+   left: 10px;
+}
+.Footer-col ul li a:hover{
+   color: white;
+   padding-left: 10px;
+}
+.Footer-col .social-links a{
+   display: inline-block;
+   height: 40px;
+   width: 40px;
+   background-color: black;
+}
